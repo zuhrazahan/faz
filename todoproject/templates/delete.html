@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+    <h3>are you conform to delete this task? </h3>
+    <button type="submit">conform</button>
+</form>
+
+
+{% endblock %}
